@@ -2,6 +2,7 @@ const great = (who: string) => {
     console.log("Hello", who);
 };
 
+
 great("Vishnu");
 
 const states = [
@@ -19,6 +20,4 @@ const states = [
     },
 ];
 
-for (const state of states) {
-    console.log(state.capital);
-}
+states.map((state) => console.log(state.capital))
