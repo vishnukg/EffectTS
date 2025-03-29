@@ -2,7 +2,6 @@ const great = (who: string) => {
     console.log("Hello", who);
 };
 
-
 great("Vishnu");
 
 const states = [
@@ -19,5 +18,4 @@ const states = [
         capital: "Phoenix",
     },
 ];
-
-states.map((state) => console.log(state.capital))
+states.map((state) => console.log(state.capital));
